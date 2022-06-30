@@ -1,0 +1,34 @@
+/*RESET CSS*/
+
+:root{
+    --PRIMARY-COLOR: ##fbbf24;
+    --SECONDARY-COLOR: ##0d0f45;
+    --WHITE-COLOR:#FFF;
+    --BLACK-COLOR:#000;
+    --SIDENAV-LINK-COLOR:#4B4453;
+
+}
+
+html{
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+  }
+  
+img {
+    object-fit: cover;
+  }
+
+a {
+  text-decoration: none;
+}
