@@ -3,8 +3,8 @@
     padding: .8rem 1.2rem;
     font-size: 1.6rem;
     border-radius: .5rem;
-    color:var(--BADGE-TEXT-COLOR );
-    background-color: var(--BADGE-TEXT-COLOR);
+    color:var(--BADGING-TEXT-COLOR );
+    background-color: var(--BADGING-TEXT-COLOR);
     opacity: .9;
 }
 
@@ -19,6 +19,16 @@
 
 .btn-secondary{
     background-color: var(--SECONDARY-BTN-COLOR);
+}
+
+.btn-landing{
+    display: inline-block;
+    text-align: center;
+    height: 5rem;
+    font-size: 2rem;
+    width: 25rem;
+    padding: 1rem;
+    box-shadow: 0 14px 28px var(--CARD-SHADOW-1), 0 10px 10px var(--CARD-SHADOW-2);
 }
 
 .btn-outline-primary{

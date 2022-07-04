@@ -5,6 +5,9 @@
 @import url('./styles/navbar.css');
 @import url(./styles/reset.css);
 @import url('./styles/utility.css');
+@import url('./styles/layout.css');
+@import url('./styles/sidenavbar.css');
+@import url('./styles/components-documentation.css');
 
 *{
     font-family: 'Montserrat', sans-serif;
