@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width:1024px){
-    .sidenavbar{
+    .sidenav{
         display: none;
     }
 

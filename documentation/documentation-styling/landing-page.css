@@ -7,23 +7,19 @@
     flex-grow: 1;
 }
 
-.hero-heading{
-    font-weight: 900;
-    font-size: 5rem;
-    color:var(--SECONDARY-COLOR);
-  
-}
-
-/*.heading-inverted{
-    color: var(--HEADING-INVERTED-COLOR);
-}*/
-
 .hero-text{
     line-height: 2.8rem;
     margin-bottom: 3.5rem;
     padding-right: 3rem;
     color:var(--SIDENAV-LINK-COLOR);
     font-size: 2.2rem;
+}
+
+.hero-heading{
+    font-weight: 900;
+    font-size: 5rem;
+    color:var(--SECONDARY-COLOR);
+  
 }
 
 .btn-landing{

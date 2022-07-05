@@ -2,6 +2,17 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .md-1 {
     margin: 1rem;
 }
