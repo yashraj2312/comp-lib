@@ -10,19 +10,18 @@
 </head>
 <body>
     <nav class="navbar-container flex-row ">
-        <a class="navbar-brand flex-row" href="#">
-            <img class="site-logo" src="./assets/throttle1.png" alt="logo">
-        </a>
-            
-        <ul class="flex-row navbar-links">
-            <li>
-                <a class="navbar-link md-ht-1" href="documentation.html">Documentation</a>
-            </li>
-            <li>
-                <a class="navbar-link md-ht-1" href="https://github.com/yashraj2312/comp-lib"> Github</a>
-            </li>
-        </ul>
-    </nav>
+        <a class="brand-heading" href="index.html">Throttle-UI</a>
+    
+        
+    <ul class="flex-row navbar-links">
+        <li>
+            <a class="navbar-link md-ht-1" href="documentation.html">Documentation</a>
+        </li>
+        <li>
+            <a class="navbar-link md-ht-1" href="https://github.com/yashraj2312/comp-lib"> Contribute</a>
+        </li>
+    </ul>
+</nav>
 
     <aside class="sidenav">
         <ul class="sidenav-nav">
@@ -43,16 +42,14 @@
     <main class="main-container">
 
         
-        <section id="#">
-            <h1 class="md-btm-2">Go Throttle!</h1>
-            <h2 class="component-subheading md-1">Introduction</h2>
-            <p class="intro-text">Create blazing fast apps using Throttle UI.</p>
-            <h2 class="component-subheading md-1">Installation</h2>
-            <p class="description">Copy and paste the code in the head tag of your html document. So that you can style your components just by adding class names to your html elements.</p>
+        
+            <h1 id="Alerts" class="component-heading">Installation</h1>
+            <p class="intro-text">Copy and paste the code in the head tag of your html document. So that you can style your components just by adding class names to your html elements.</p>
+           
             <section class="code-container">
                
             </section>
-        </section>
+        
 
 
         <h1 id="Alerts" class="component-heading">Alerts</h1>
@@ -61,28 +58,21 @@
         </p>
 
         <section class="example-container">
-            <div class="alert alert-primary">
-                <p>Example of a primary alert</p>
-            </div>
-
-            <div class="alert alert-secondary">
-                <p>Example of a secondary alert</p>
-            </div>
 
             <div class="alert alert-info">
-                <p>Example of an info alert</p>
+                <p>This is an info alert</p>
             </div>
 
             <div class="alert alert-warning">
-                <p>Example of a warning alert</p>
+                <p>This is a warning alert</p>
             </div>
 
             <div class=" alert alert-success">
-                <p>Example of a success alert</p>
+                <p>This is a success alert</p>
             </div>
 
-            <div class="alert alert-danger">
-                <p>Example of a danger alert</p>
+            <div class="alert alert-error">
+                <p>This is a error alert</p>
             </div>
         </section>
 
@@ -161,12 +151,12 @@
         <h2 class="component-subheading">Badges on text</h2>
 
         <section class="example-container">
-            <h1>Badge on heading 1 <span class="badge">New</span></h1>
-            <h2>Badge on heading 2 <span class="badge">New</span></h2>
-            <h3>Badge on heading 3 <span class="badge">New</span></h3>
-            <h4>Badge on heading 4 <span class="badge">New</span></h4>
-            <h5>Badge on heading 5 <span class="badge">New</span></h5>
-            <p class="md-1">Badge on normal text <span class="badge">New</span></p>
+            <h1>Heading 1 <span class="badge">Bestseller</span></h1>
+            <h2>Heading 2 <span class="badge">Out of Stock</span></h2>
+            <h3>Heading 3 <span class="badge">Trending</span></h3>
+            <h4>Heading 4 <span class="badge">New</span></h4>
+            <h5>Heading 5 <span class="badge">Exclusive</span></h5>
+            <p class="md-1">Normal text <span class="badge">Refurbished</span></p>
         </section>
 
         <section class="code-container">
@@ -176,10 +166,8 @@
         <h2 class="component-subheading">Badges on icons</h2>
 
         <section class="example-container-align-horizontal">
-            <div><i class="badge-container fas fa-bell fa-3x"><span class="badge badge-icon">5</span></i></div>
-            <div><i class="badge-container fas fa-shopping-cart fa-3x"><span class="badge badge-icon">5</span></i></div>
-            <div><i class="badge-container fas fa-envelope fa-3x"><span class="badge badge-icon">5</span></i></div>
-        </section>
+            <div><i class="badge-container fas fa-bell fa-3x"><span class="badge badge-icon">1</span></i></div>
+           </section>
 
         <section class="code-container">
 
@@ -214,19 +202,393 @@
 
         </section>
 
+
+        <hr>
+
+        <h1 id="Button" class="component-heading">Buttons</h1>
+
+        <p class="intro-text">Buttons allow users to take actions, and make choices, with a single tap.</p>
+
+        <h2 class="component-subheading">Primary Button</h2>
+
+        <section class="example-container-align-horizontal">
+            <button class="btn btn-primary">Primary Button</button>
+        </section>
+
+        <section class="code-container">
+
+
+        </section>
+
+        <h2 class="component-subheading">Link Buttons</h2>
+
+        <section class="example-container-align-horizontal">
+            <a class="btn btn-primary" href="#" role="button">Click Me!</a>
+        </section>
+
+        <section class="code-container">
+
+        </section>
+
+        <h2 class="component-subheading">Icon Buttons</h2>
+
+        <section class="example-container-align-horizontal">
+            <button class="btn btn-primary"><i class="fas fa-cart-plus"></i></button>
+            <button class="btn btn-primary"><i class="fas fa-bars"></i></button>
+            <button class="btn btn-primary"><i class="fas fa-trash-alt"></i></button>
+            <button class="btn btn-primary"><i class="fas fa-times"></i></button>
+
+            <button class="btn btn-primary"><i class="fas fa-bars"></i><span class="md-ht-1">MENU</span></button>
+            <button class="btn btn-primary"><i class="fas fa-trash-alt"></i><span
+                    class="md-ht-1">DELETE</span></button>
+            <button class="btn btn-primary"><i class="fas fa-times"></i><span class="md-ht-1">CLOSE</span></button>
+        </section>
+
+        <section class="code-container">
+        
+        </section>
+
+        <h2 class="component-subheading">Floating action Button</h2>
+
+        <section class="example-container-align-horizontal">
+            <a href="#" class="btn btn-fab align-items-center"> <i class="fas fa-arrow-up"></i></a>
+        </section>
+
+        <section class="code-container">
+
+        </section>
+
+        <hr>
+
+        <h1 id="Cards" class="component-heading">Cards</h1>
+
+        <p class="intro-text">Cards contain content and actions about a single subject.</p>
+
+        <h2 class="component-subheading">Cards with Badges</h2>
+
+        <section class="example-container-align-horizontal">
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/porsche_scale1.webp" alt="">
+                    <span class="card-badge badge">Bestseller</span>
+                </div>
+                <div class="card-body">
+                    <h3>Porsche 956 LH 3rd 24H LeMans 1:18 Scale Model Car</h3>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="md-ht-1">Rs. 6499.00 <span class="card-discount"> <span class="original-price md-ht-1">
+                                Rs. 6,999.00 </span> (13% OFF)</span> </p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-btn btn btn-primary"><i class="fas fa-cart-plus"></i><span
+                            class="md-ht-1">ADD TO CART</span></button>
+                </div>
+            </div>
+
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/lamborghini_scale.webp" alt="">
+                    <span class="card-badge badge">Hot</span>
+                </div>
+                <div class="card-body">
+                    <h3>Lamborghini Countach WalterWolf 1:18 Scale Model Car</h3>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="md-ht-1">Rs. 22,499.00 <span class="card-discount"> <span class="original-price md-ht-1">
+                                Rs. 25,000.00 </span> (15% OFF)</span> </p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-btn btn btn-primary"><i class="fas fa-money-check"></i><span
+                            class="md-ht-1">BUY NOW</span></button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="code-container">
+
+        </section>
+
+
+        <h2 class="component-subheading">Cards with Dismiss</h2>
+
+        <section class="example-container-align-horizontal">
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/porsche_scale1.webp" alt="">
+                    <span><i class="card-dismiss fas fa-times"></i></span>
+                </div>
+                <div class="card-body">
+                    <h3>Porsche 956 LH 3rd 24H LeMans 1:18 Scale Model Car</h3>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="md-ht-1">Rs.6,499.00 <span class="card-discount"> <span class="original-price md-ht-1">
+                                Rs. 6,999 </span> (13% OFF)</span> </p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-btn btn btn-primary"><i class="fas fa-cart-plus"></i><span
+                            class="md-ht-1">ADD TO CART</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-container">
+
+        </section> 
+
+
+        <h2 class="component-subheading">Cards with Overlay</h2>
+
+        <section class="example-container-align-horizontal">
+            <div class="card align-items-center">
+                <div class="card-overlay align-items-center">Not In Stock</div>
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/enzo.webp" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Enzo Ferrari Limited edition style 1:18 scale model figure</h3>
+                    <p class="card-description">Not in Stock</p>
+                    <p class="md-ht-1">Rs. 4,000 <span class="card-discount"> <span class="original-price md-ht-1">
+                                Rs.4,800 </span> (21% OFF)</span> </p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-btn btn btn-primary"><i class="fas fa-cart-plus"></i><span
+                            class="md-ht-1">ADD TO CART</span></button>
+                </div>
+            </div>
+
+            <!--Second card with overlay-->
+            <div class="card align-items-center">
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/toyoda.webp" alt="">
+                </div>
+                <div class="card-body card-overlay-text btn btn-primary">
+                    New Collection
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Get Yours Now!!</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-container">
+
+        </section>  
+
+        <h2 class="component-subheading">Text only Cards</h2>
+
+        <section class="example-container-align-horizontal">
+            <div class="card align-items-center">
+                <div class="card-header text-left">
+                    <h3>Card Title</h3>
+                </div>
+                <div class="card-body text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim totam sint, cum illo quasi
+                        autem quas eum exercitationem fugiat eligendi!</p>
+                </div>
+                <div class="card-footer align-items-center">
+                    <button class="btn btn-primary" role="button">Yes</button>
+                    <button class="btn btn-secondary">No</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-container">
+
+
+        </section>
+
+
+        <h2 class="component-subheading">Card With shadow</h2>
+
+        <section class="example-container-align-horizontal">
+            <div class="card align-items-center card-shadow-alternate">
+                <div class="card-header">
+                    <img class="card-img" src="./component-items/assets/porsche_scale1.webp" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Porsche 956 LH 3rd 24H LeMans 1:18 Scale Model Car</h3>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur</p>
+                    <p class="md-ht-1">Rs. 6,499.00 <span class="card-discount"> <span class="original-price md-ht-1">
+                                Rs. 6,999.00 </span> (13% OFF)</span> </p>
+                </div>
+                <div class="card-footer">
+                    <button class="card-btn btn btn-primary"><i class="fas fa-cart-plus"></i><span
+                            class="md-ht-1">ADD TO CART</span></button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <h2 class="component-subheading">Horizontal Cards</h2>
+            <section class="example-container">
+
+                <div class="card align-items-center card-horizontal">
+                    <div class="card-header">
+                        <img class="card-img card-horizontal-img" src="./component-items/assets/lamborghini_scale.webp" alt="">
+                        <span class="card-badge badge">Refurbished</span>
+                    </div>
+                    <div class="md-ht-1 card-body">
+                        <h3>Lamborghini Countach WalterWolf 1:18 Scale Model Car</h3>
+                        <p class="md-ht-1">Rs. 20,000.00 <span class="card-discount"> <span class="original-price md-ht-1">
+                                    Rs. 25,000 </span> (25% OFF)</span> </p>
+                        <div class="card-horizontal-footer">
+                            <button class="card-horizontal-btn btn btn-primary"><i class="fas fa-cart-plus"></i><span
+                                    class="md-ht-1">BUY NOW</span></button>
+                            <button class="card-horizontal-btn btn btn-secondary"><i
+                                    class="fas fa-heart"></i><span class="md-ht-1">ADD TO CATALOGUE</span></button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
         
 
+        <section class="code-container">
+
+        </section>
+
+        <hr>
+
+        <h1 id="Image" class="component-heading">Images</h1>
+
+        <p class="intro-text">Images communicates and differentiates a product through visuals.</p>
+
+        <h2 class="component-subheading">Responsive images</h2>
+
+        <section class="example-container-align-horizontal">
+            <picture>
+                <source srcset="./component-items/assets/cover.jpg" media="(max-width: 400px)">
+                <source srcset="./component-items/assets/cover.jpg">
+                <img class="responsive-img" src="./component-items/assets/cover.jpg" alt="responsive img example">
+            </picture>
+
+        </section>
+
+        <section class="code-container">
 
 
+        </section>
+
+        <h2 class="component-subheading">Round images</h2>
+
+        <section class="example-container-align-horizontal">
+            <img class="round-img round-lg" src="./component-items/assets/batman_avatar.png" alt="">
+            <img class="round-img round-md" src="./component-items/assets/batman_avatar.png" alt="">
+            <img class="round-img round-sm" src="./component-items/assets/batman_avatar.png" alt="">
+        </section>
+
+        <section class="code-container">
 
 
+        </section>
 
 
+        <hr>
+            
+            <h1 id="Input" class="component-heading">Inputs</h1>
+
+            <p class="intro-text">Input components allow a flow to accept user input, such as through a text input field.</p>
+
+            <h2 class="component-subheading">Textbox</h2>
+
+            <section class="example-container">
+                <form>
+
+                    <div class="form-set">
+                        <label class="form-label" for="fname">Name</label>
+                        <input class="form-input form-input-lg pd-1" type="text" id="fname" name="fname">
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="fullname">Email Address</label>
+                        <input class="form-input form-input-lg pd-1" type="text" id="fullname" name="fullname">
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="feedback-box">Address</label>
+                        <textarea class="form-input pd-1" name="feedback" id="feedback-box" cols="30"
+                            rows="10"></textarea>
+                    </div>
+
+                </form>
+            </section>
+
+            <section class="code-container">
 
 
+            </section>
 
 
+            <h2 class="component-subheading">Inputs with default validation</h2>
 
+            <section class="example-container">
+                <form>
+                    <div class="form-set">
+                        <label class="form-label" for="fname">Name:</label>
+                        <input class="form-input form-input-lg pd-1" type="text" id="fname" name="fname" required>
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-input form-label" for="email">Email:</label>
+                        <input class="form-input form-input-lg pd-1" type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="password">Password:</label>
+                        <input class="form-input form-input-lg pd-1" type="password" id="password" name="password"
+                            required>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary form-btn" value="Sign In" role="button">
+
+                </form>
+            </section>
+
+            <section class="code-container">
+
+            </section>
+
+
+            <h2 class="component-subheading">Input with custom validation and error style</h2>
+
+            <section class="example-container">
+                <form class="form-validation" action="#" novalidate>
+                    <div class="form-set">
+                        <label class="form-label" for="fname">Username:</label>
+                        <input class="form-input form-input-lg pd-1" type="text" id="username" name="username">
+                        <div class="form-error-msg"></div>
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="user-email">Email:</label>
+                        <input class="form-input form-input-lg pd-1" type="email" id="user-email" name="email">
+                        <div class="form-error-msg"></div>
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="user-password">Password:</label>
+                        <input class="form-input form-input-lg pd-1" type="password" id="user-password"
+                            name="password">
+                        <div class="form-error-msg"></div>
+                    </div>
+
+                    <div class="form-set">
+                        <label class="form-label" for="user-password-2">Confirm Password:</label>
+                        <input class="form-input form-input-lg pd-1" type="password" id="user-password-2"
+                            name="password-2">
+                        <div class="form-error-msg"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-btn">Sign Up</button>
+                </form>
+            </section>
+
+            <section class="code-container">
+
+
+            </section>
     </main>
+
+    <script src="./component-items/item-JS/throttle-script.js"></script>
 </body>
 </html>

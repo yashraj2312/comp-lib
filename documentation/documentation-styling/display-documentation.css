@@ -1,14 +1,13 @@
 :root{
+    --PRIMARY-COLOR: #DB3A34;
+    --SECONDARY-COLOR: #084C61;
     --BORDER-COLOR:#eeeeee;
-    --PRIMARY-COLOR: #4B4453;
-    --SECONDARY-COLOR: #9a94a1;
     --BLACK-COLOR:#000;
     --WHITE-COLOR:#FFF;
-    --GREY-COLOR:#eee;
-    --GREY-COLOR-2:#F9F7F7; 
+    --YELLOW-COLOR:#ffffb7;
+    --YELLOW-COLOR-2:#ffffb7; 
     --TEXT-COLOR:#000;
-    --HEADING-INVERTED-COLOR:#4B4453;
-    --SIDENAV-LINK-COLOR:#4B4453;
+    --SIDENAV-LINK-COLOR:#177E89;
     --SUBHEADING-COLOR:#000;
 }
 
@@ -45,7 +44,7 @@
     width : 100%;
     overflow-x:auto;
     height:auto;
-    background-color: var(--GREY-COLOR-2);
+    background-color: var(--YELLOW-COLOR-2);
     margin: 1rem;
     padding: 1rem;
     border-radius: 5px;
@@ -61,7 +60,7 @@
     gap: 2rem;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--GREY-COLOR-2);
+    background-color: var(--YELLOW-COLOR-2);
     padding: 1.6rem;
     border-radius: 5px;
     margin:1rem;
@@ -70,5 +69,10 @@
 
 .sidenav-hr{
     margin: 1rem 0;
+}
+
+.text-highlight{
+    color: var(--TEXT-HIGHLIGHT-COLOR);
+    font-style: italic;
 }
 
