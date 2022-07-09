@@ -23,6 +23,7 @@
 .sidenav-item{
   display:flex;
   align-items:center;
+  font-size: 1.5rem;
   padding: .5rem 10rem;
   border-radius: 5px;
 }
@@ -35,7 +36,7 @@
 }
 
 .sidenav-item:hover{
-  background-color: var(--GREY-COLOR);
+  background-color: var(--YELLOW-COLOR);
   color: var(--BLACK-COLOR);
 }
 

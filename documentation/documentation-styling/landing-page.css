@@ -22,16 +22,6 @@
   
 }
 
-.btn-landing{
-    width: 25rem;
-    height: 5rem;
-    font-size: 2rem;
-    padding: 1rem;
-    display: inline-block;
-    text-align: center;
-    box-shadow: 0 14px 28px var(--DEFAULT-CARD-SHADOW-1), 0 10px 10px var(--DEFAULT-CARD-SHADOW-2);
-}
-
 @media screen and (max-width:80rem){
     html{
         font-size: 55%;

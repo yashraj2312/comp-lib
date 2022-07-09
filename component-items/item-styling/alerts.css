@@ -6,16 +6,6 @@
     border-radius: 5px;
 }
 
-.alert-primary{
-    background-color: var(--PRIMARY-ALERT-BGCOLOR);
-    color: var(--PRIMARY-ALERT-COLOR)
-}
-
-.alert-secondary{
-    background-color: var(--SECONDARY-ALERT-BGCOLOR);
-    color: var(--SECONDARY-ALERT-COLOR)
-}
-
 .alert-info{
     background-color: var(--INFO-ALERT-BGCOLOR);
     color: var(--INFO-ALERT-COLOR);
@@ -31,9 +21,9 @@
     color: var(--SUCCESS-ALERT-COLOR);
 }
 
-.alert-danger{
-    background-color: var(--DANGER-ALERT-BGCOLOR);
-    color: var(--DANGER-ALERT-COLOR);
+.alert-error{
+    background-color: var(--ERROR-ALERT-BGCOLOR);
+    color: var(--ERROR-ALERT-COLOR);
 }
 
 .align-center{

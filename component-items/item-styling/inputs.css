@@ -1,0 +1,45 @@
+.form-label{
+    display: block;
+    font-size: 1.6rem;
+}
+
+.form-set{
+    margin: 1.5rem 0;
+}
+
+.form-input{
+    width: 100%;
+    margin:.5rem 0;
+}
+
+.form-input-lg{
+    height: 4rem;
+}
+
+.form-input-md{
+    height: 3rem;
+}
+
+.form-btn{
+    margin-left:0;
+}
+
+input:focus{
+    border: 1px solid var( --PRIMARY-BTN-COLOR );
+}
+
+/*CLASSES FOR CUSTOM FORM VALIDATION AND STYLING*/
+
+.form-error-msg{
+    color: var(--ERROR-ALERT-COLOR);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.form-input-error{
+    border: 3px solid var(--ERROR-ALERT-COLOR);
+}
+
+.form-input-success{
+    border: 3px solid var(--SUCCESS-BTN-COLOR);
+}
