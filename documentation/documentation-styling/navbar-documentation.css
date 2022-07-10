@@ -46,7 +46,7 @@ footer{
     width: 100%;
     overflow: hidden;
     height: 8.5rem;
-    background-color: var(--PRIMARY-COLOR);
+    background-color: var(--SECONDARY-COLOR);
     position: relative;
     z-index: 2;
 }
